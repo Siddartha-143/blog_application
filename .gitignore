@@ -1,42 +1,10 @@
-# Python
+# Python-generated files
 __pycache__/
-*.py[cod]
-*.pyo
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Flask
-instance/
-.webassets-cache/
-
-# IDE / Editors
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Testing / Coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Local database / data files
-*.db
-*.sqlite
-*.sqlite3
+# Virtual environments
+.venv
