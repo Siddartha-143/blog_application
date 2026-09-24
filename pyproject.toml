@@ -7,7 +7,12 @@ authors = [
     { name = "siddu", email = "siddusiddu0149@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "flask",
+    "pymongo",
+    "flask-jwt-extended",
+    "werkzeug"
+]
 
 [project.scripts]
 flask-blog = "flask_blog:main"
