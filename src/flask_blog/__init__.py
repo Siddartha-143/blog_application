@@ -25,15 +25,12 @@ def add_user():
     email = data["email"]
     password = data["password"]
     old_user = user_collection.find_one({"email": email})
-
     if old_user:
         return {
             "message": "Please enter a different mail ID"
         }, 400
-
     password = generate_password_hash(password)
     user_id = str(uuid4())
-
     user_data = {
         "name": name,
         "email": email,
